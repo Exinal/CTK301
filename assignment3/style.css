@@ -1,0 +1,36 @@
+.header {
+    color: purple;
+    background-color:gray;
+}
+a {
+    color: #ff0000;
+  }
+  
+  a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:active {
+    color: #00ffff;
+  }
+  
+  a:hover {
+    color: #ffff00;
+  }  
+.fancystuff {
+    color: blue;
+}
+.h3 {
+    color: orange;
+    background-color: aquamarine;
+}
+.nav {
+    background-color: aqua;
+}
+#requirements {
+    background-color: beige;
+}      
