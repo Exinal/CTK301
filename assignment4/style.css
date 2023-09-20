@@ -1,0 +1,65 @@
+a {
+    color: #ff0000;
+  }
+  
+  a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:active {
+    color: #00ffff;
+  }
+  
+  a:hover {
+    color: #ffff00;
+  }  
+.fancystuff {
+    color: blue;
+}    
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(Astral-Express.png);
+}
+.nav {
+  background-color: aqua;
+}
+h1 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+    background-color: gray;
+}
+h2 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+  background-color: gray;
+}
+h3 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+  background-color: gray;
+}
+img {
+  border: 5px solid black;
+  padding: 50px ;
+  margin: 0;
+  background-color: yellow;
+}
+p {
+  text-align: justify;
+  background-color: beige;
+  width: fit-content;
+}
+.exception {
+  text-align: center;
+}
+.beige {
+  background-color: beige;
+}
