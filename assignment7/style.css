@@ -108,6 +108,7 @@ footer {
 }
 aside p {
     text-align: justify;
+    font-weight: bold;
     margin-left: 10px;
     margin-right: 10px;
 }
