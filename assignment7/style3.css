@@ -1,0 +1,108 @@
+body {
+    background-color: gray;
+}
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 5px solid black;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+header {
+    grid-column: span 12;
+    background-image: linear-gradient(to bottom, #0065ff, #0056ce, #00469e, #00346f, #002242);
+}
+header a {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+h1 {
+    font-weight: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #000000;
+    padding-left: 10px;
+}
+nav {
+    grid-column: span 12;
+    background-image: linear-gradient(to bottom, #0065ff, #0056ce, #00469e, #00346f, #002242);
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+  
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+  
+nav li a {
+    display: block;
+    background-image: linear-gradient(to bottom, #0065ff, #0056ce, #00469e, #00346f, #002242);
+    border-right: 5px solid black;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+nav li a:hover {
+    background-image: linear-gradient(to bottom, #8500ff, #6901cc, #4f019b, #36016d, #1f0042);
+} 
+main {
+    margin: 1em auto;
+    padding: 0;
+    width: 938px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+#Evelyn {
+    grid-column: span 4;
+}
+#Waymond {
+    grid-column: span 4;
+}
+#Joy {
+    grid-column: span 4;
+}
+.img {
+    width: 270px;
+    margin-left: 24px;
+}
+main p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding-right: 20px;
+    margin-left: 20px; 
+}
+main h2 {
+    border-bottom: 5px solid black;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+main a {
+    color: darkgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+main a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    grid-column: span 12;
+    background-color: red;
+    padding: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    border-top: 5px solid black;
+    text-align: left;
+    font-weight: bold;
+}
+
